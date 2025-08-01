@@ -1,87 +1,101 @@
 # 📱 MekoStats
 
-**MekoStats** is a powerful Android performance monitoring tool with a beautiful UI, powered by [Shizuku](https://shizuku.rikka.app/). It offers real-time insights into your device's system performance — including FPS, CPU, battery, network, and more — with no root required.
+**MekoStats** is a real-time Android system performance monitor powered by [Shizuku](https://shizuku.rikka.app/). With no ads and a beautiful, customizable UI, it gives you deep insights into your device’s performance — in real time — without requiring root.
 
 ---
 
 ## 📸 Screenshots
 
-| FPS Overlay | System Monitor | App Insights |
-|------------|----------------|---------------|
+| FPS Overlay | System Dashboard | App Details |
+|-------------|------------------|-------------|
 | ![Overlay](screenshots/overlay.png) | ![Dashboard](screenshots/system_monitor.png) | ![Apps](screenshots/apps.png) |
 
-> 📌 Make sure to upload your screenshots in a `/screenshots` folder with matching file names.
+> 📌 Place your screenshots inside a `screenshots/` folder in this repo.
 
 ---
 
 ## 🚀 Features
 
-### 🔍 **Live Monitoring**
-- 🎮 Real-time **FPS tracking** using SurfaceFlinger
-- 🧠 **CPU & RAM usage** graphs
-- 🔋 Battery temperature & health monitoring
-- 🌐 **Network activity** (Wi-Fi/Mobile data usage)
-- ⚡ **Power consumption** insights by app
+### 🔍 Real-time System Monitoring
 
-### 🖼️ **Customizable Overlay**
-- 🎨 Change **overlay background & text color**
-- 📏 Adjust text size, opacity, and corner radius
-- 🌓 **Theme support**: Light, Dark, or System Default
-- 🖥️ Always-on-top floating overlay with smooth UI
-
-### 🧹 **App Management (via Shizuku)**
-- 🚫 Detect & uninstall **bloatware/system apps**
-- 📦 View app storage usage (APK size, cache, data)
-- 🔧 No root required (uses **Shizuku** service)
-
-### 🌍 **Multilingual Support**
-Supports 10+ languages:
-- 🇨🇳 Simplified & Traditional Chinese
-- 🇷🇺 Russian
-- 🇹🇭 Thai
-- 🇪🇸 Spanish
-- 🇯🇵 Japanese
-- 🇵🇹 Portuguese
-- 🇫🇷 French
-- 🇲🇾 Malay
-- 🇮🇩 Indonesian
-
-### ✅ Other Highlights
-- ✅ No Ads, No Analytics
-- ⚡ Smooth UI with shimmer loading effects
-- 📊 Graphs powered by MPAndroidChart
-- 🔐 100% Privacy-friendly — no data ever leaves your device
+- 🎮 **FPS Monitoring** – overlay-based real-time FPS via SurfaceFlinger  
+- 🧠 **CPU Usage** – real-time multi-core CPU load visualization  
+- 🔋 **Battery Temperature** – live tracking of battery heat  
+- 🌐 **Network Insights** – live upload/download usage for Wi-Fi and mobile  
+- ⚡ **Power Consumption** – estimate app-based energy usage over time
 
 ---
 
-## 📦 APK Download
+### 🖼️ Customizable Floating Overlay
 
-👉 [**Download latest APK**](https://github.com/yourusername/MekoStats/releases/latest)  
-📁 Or go to the [**Releases tab**](https://github.com/yourusername/MekoStats/releases)
+- 🎨 Change **background and text color**
+- 🔠 Adjust **text size**, **corner radius**, and **opacity**
+- 🌓 Supports **Light, Dark, or System Default** themes
+- ⬆️ Always-on-top overlay with smooth material transitions
+
+---
+
+### 🧹 App Insights & Bloatware Removal (via Shizuku)
+
+- 📦 View installed app details: cache, code size, and data
+- 🚫 Detect and uninstall **bloatware/system apps**
+- 🔐 No root required (uses Shizuku)
+
+---
+
+### 🌐 Multilingual Support
+
+MekoStats supports **10+ global languages**:
+- 🇨🇳 Simplified & Traditional Chinese
+- 🇷🇺 Russian
+- 🇯🇵 Japanese
+- 🇹🇭 Thai
+- 🇪🇸 Spanish
+- 🇵🇹 Portuguese
+- 🇫🇷 French
+- 🇮🇩 Indonesian
+- 🇲🇾 Malay
+
+---
+
+### ✅ Why MekoStats?
+
+- ⚡ Lightweight and fast
+- 🔒 100% private – no analytics or trackers
+- 🛠 Built with Shizuku – no root needed
+- 💎 Modern Material 3 UI with shimmer loading
+- 📊 Beautiful charts using MPAndroidChart
+
+---
+
+## 📦 Download
+
+👉 [**Download Latest APK**](https://github.com/yourusername/MekoStats/releases/latest)  
+📁 Or visit the [**Releases Tab**](https://github.com/yourusername/MekoStats/releases)
 
 ---
 
 ## 🛠 Requirements
 
-- 📱 Android 8.0 (API 26) or higher
-- 🚀 Shizuku service must be running  
-  📖 [Shizuku Setup Guide](https://shizuku.rikka.app/guide/setup/)
+- Android 8.0 (Oreo) or higher
+- Shizuku service running on device  
+  📖 [Setup Guide](https://shizuku.rikka.app/guide/setup/)
 
 ---
 
-## 🧪 Tech Stack
+## 🧪 Built With
 
 - Kotlin + Android Jetpack
+- Material 3 Components
 - Shizuku API
 - MPAndroidChart
-- Material 3 Design
 - DataStore Preferences
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE)
+Licensed under the [MIT License](LICENSE)
 
 ---
 
