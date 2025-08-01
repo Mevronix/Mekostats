@@ -1,123 +1,143 @@
-# 📱 MekoStats
+# 📊 MekoStats
 
-**MekoStats** is a powerful Android utility that provides real-time insights into your device’s performance — without root. It features a floating overlay, live system stats, app manager (via Shizuku), dynamic theming, and no ads or analytics.
+**MekoStats** is an advanced real-time system monitoring app for Android that provides in-depth performance stats, customizable overlays, bloatware control (via Shizuku), and a privacy-first experience — all without root.
 
 ---
 
-## 📸 Screenshots
+## 🎯 Features Overview
 
-| FPS Overlay | System Monitor | App Info |
-|-------------|----------------|----------|
+| Feature                  | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| 🖥️ Overlay Monitor       | Live floating window for FPS, CPU, Battery, Network, Power                  |
+| 🎮 FPS Tracker           | Frame rate data via SurfaceFlinger                                          |
+| 🔋 Battery Temp          | Monitors real-time battery heat                                             |
+| 🧠 CPU Usage             | Per-core usage monitoring                                                   |
+| 🌐 Network Insights      | Real-time Wi-Fi & Mobile data usage                                         |
+| ⚡ Power Consumption      | App-level power usage estimation                                            |
+| 🎨 Theme Customization   | Full UI + overlay theming (colors, text size, opacity, radius)              |
+| 🌙 Theme Modes           | Light / Dark / System default                                               |
+| 🔧 App Info Manager      | View app details, launch, uninstall, update via Shizuku                    |
+| 🌎 Multilingual Support  | 12+ languages including English, Hindi, Chinese, Spanish, and more          |
+| 🚫 No Ads / No Tracking  | 100% privacy-focused with zero analytics or ads                             |
+
+---
+
+## 🖼️ UI Screenshots
+
+> Store images in a `screenshots/` folder in your repo.
+
+| Overlay Example | System Monitor | App Manager |
+|-----------------|----------------|-------------|
 | ![Overlay](screenshots/overlay.png) | ![Monitor](screenshots/system_monitor.png) | ![Apps](screenshots/apps.png) |
 
-> 📁 Put your screenshots in a `screenshots/` folder in your repo.
+---
+
+## 🔍 System Monitoring (Live)
+
+- 🎮 **FPS (Frames per Second)** via SurfaceFlinger (no root)
+- 🧠 **CPU usage** – real-time, all cores
+- 🔋 **Battery temperature** – degrees in °C
+- 🌐 **Network stats** – upload/download rates
+- ⚡ **Power consumption** – estimated energy drain per app
+
+All stats are updated continuously in the floating overlay.
 
 ---
 
-## 🚀 Key Features
+## 🧩 Overlay Customization
 
-### 🔍 Real-Time Performance Monitoring
+Customize the on-screen monitor:
 
-- 🎮 **FPS Monitoring** – via SurfaceFlinger (live overlay)
-- 🧠 **CPU Usage** – real-time multi-core load
-- 🔋 **Battery Temperature** – live heat display
-- 🌐 **Network Activity** – current data usage (Wi-Fi/Mobile)
-- ⚡ **Power Consumption** – per-app power use estimation
+- 🎨 Overlay **background & text colors**
+- 🔠 **Text size** adjustment
+- 🧊 **Corner radius** customization
+- 🟡 **Opacity** control
+- 🌓 **Light/Dark/System** theme modes
 
----
-
-### 🖼️ Customizable Floating Overlay
-
-- 🎨 Change **text and background colors**
-- 🔠 Adjust text size, radius, opacity
-- 🖥️ Floating real-time view stays on screen
-- 🌓 **System theme support** (Light, Dark, or Default)
+These settings persist across sessions using DataStore preferences.
 
 ---
 
-### 🎨 Color Theme Switcher
+## 📱 App Info & Management (Shizuku-Powered)
 
-- Pick between color palettes:  
-  ✅ Blue  
-  ✅ Green  
-  ✅ Red  
-  ✅ Purple  
-  ✅ System default  
-- Applies to UI and overlay dynamically
+Access detailed app-level info:
 
----
-
-### 🧹 App Info & Uninstall (via Shizuku)
-
-- 📱 View:
-  - App name, package name
-  - **APK size**
-  - **Install date** and **last update date**
-- ⚙️ Actions:
-  - 📤 Uninstall
-  - 🔄 Update
-  - 🚀 Launch
-  - 🔧 App settings
-- ❌ No cache or storage info shown (for speed + privacy)
+- 📦 App name + package name
+- 📅 Install date & last update date
+- 📁 APK size (no cache/data shown)
+- ⚙️ Launch, Update, Uninstall actions (via **Shizuku**)
+- 🔍 No root required — only Shizuku service
 
 ---
 
-### 🌐 Multi-language Support
+## 🌈 UI Color Themes
 
-- 🇨🇳 Simplified & Traditional Chinese
-- 🇷🇺 Russian
-- 🇯🇵 Japanese
-- 🇹🇭 Thai
-- 🇪🇸 Spanish
-- 🇵🇹 Portuguese
-- 🇫🇷 French
-- 🇮🇩 Indonesian
-- 🇲🇾 Malay
+Switch entire app's theme dynamically:
+
+- 🔵 Blue
+- 🟢 Green
+- 🔴 Red
+- 🟣 Purple
+- ⚙️ System default
+
+Applies to UI, overlay, and components instantly.
 
 ---
 
-### ✅ Privacy-Friendly
+## 🌐 Language Support
+
+MekoStats is available in:
+
+- 🇺🇸 English  
+- 🇮🇳 Hindi  
+- 🇨🇳 Simplified Chinese  
+- 🇹🇼 Traditional Chinese  
+- 🇷🇺 Russian  
+- 🇯🇵 Japanese  
+- 🇹🇭 Thai  
+- 🇪🇸 Spanish  
+- 🇵🇹 Portuguese  
+- 🇫🇷 French  
+- 🇮🇩 Indonesian  
+- 🇲🇾 Malay  
+
+Supports full localization with RTL/LTR compatibility.
+
+---
+
+## 🔐 Privacy First
 
 - ❌ No ads  
 - ❌ No analytics  
-- 📱 No user data ever leaves your device
+- ❌ No trackers  
+- ✅ 100% offline usage  
+- 🧠 Only permission required: Shizuku (no root)
 
 ---
 
 ## 📦 Download
 
-👉 [Download APK from Releases](https://github.com/yourusername/MekoStats/releases/latest)  
-📁 Or visit the [Releases](https://github.com/yourusername/MekoStats/releases) tab
+📥 [Download the latest release](https://github.com/yourusername/MekoStats/releases/latest)  
+📁 Or visit the [Releases](https://github.com/yourusername/MekoStats/releases)
 
 ---
 
-## 🛠 Requirements
+## ⚙️ Requirements
 
-- Android 8.0 (API 26) or higher
-- Shizuku service running  
-  📖 [Setup Instructions](https://shizuku.rikka.app/guide/setup/)
-
----
-
-## ⚙️ Tech Stack
-
-- Kotlin
-- Android Jetpack (ViewModel, DataStore, LiveData)
-- Shizuku API
-- MPAndroidChart
-- Material 3
+- 📱 Android 8.0 (API 26) and above
+- 🔌 [Shizuku](https://shizuku.rikka.app/) must be running (ADB or root mode)
+- 🧠 Compatible with most modern Android devices
 
 ---
 
-## 📄 License
+## 🧰 Tech Stack
 
-Licensed under the [MIT License](LICENSE)
+- **Language**: Kotlin
+- **Architecture**: MVVM + Jetpack (ViewModel, LiveData, DataStore)
+- **UI**: Material 3 + Dynamic Colors
+- **Overlay**: Floating window service with customization
+- **System APIs**: SurfaceFlinger, StorageStatsManager, NetworkStatsManager
+- **Charting**: MPAndroidChart for graphical analysis
+- **Automation**: Shizuku for system-level app control
 
 ---
-
-## 👨‍💻 Developer
-
-Made with ❤️ by **[Your Name]**
-
-- 🌐 Website: [yourwebsite.com](https://yourwebsite.com)
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
