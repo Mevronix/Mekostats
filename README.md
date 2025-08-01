@@ -107,7 +107,7 @@ Supports full localization with RTL/LTR compatibility.
 
 ## 📦 Download
 
-📥 [Download the latest release](https://github.com/yourusername/MekoStats/releases/latest)  
+📥 [Download the latest release](https://github.com/yourusername/MekoStats/releases/latest](https://github.com/saipravinseelam/Mekostats/releases/download/v1.0/Mekostats.apk)  
 📁 Or visit the [Releases](https://github.com/yourusername/MekoStats/releases)
 
 ---
