@@ -120,14 +120,3 @@ Supports full localization with RTL/LTR compatibility.
 
 ---
 
-## 🧰 Tech Stack
-
-- **Language**: Kotlin
-- **Architecture**: MVVM + Jetpack (ViewModel, LiveData, DataStore)
-- **UI**: Material 3 + Dynamic Colors
-- **Overlay**: Floating window service with customization
-- **System APIs**: SurfaceFlinger, StorageStatsManager, NetworkStatsManager
-- **Charting**: MPAndroidChart for graphical analysis
-- **Automation**: Shizuku for system-level app control
-
----
