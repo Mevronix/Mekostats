@@ -22,16 +22,6 @@
 
 ---
 
-## 🖼️ UI Screenshots
-
-> Store images in a `screenshots/` folder in your repo.
-
-| Overlay Example | System Monitor | App Manager |
-|-----------------|----------------|-------------|
-| ![Overlay](screenshots/overlay.png) | ![Monitor](screenshots/system_monitor.png) | ![Apps](screenshots/apps.png) |
-
----
-
 ## 🔍 System Monitoring (Live)
 
 - 🎮 **FPS (Frames per Second)** via SurfaceFlinger (no root)
